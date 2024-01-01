@@ -3,15 +3,15 @@
 
 # Table of Contents
 
-[Project Overview](#Project Overview)
+[Project Overview](#Project-Overview)
 
-[Data Source](#Data Source)
+[Data Source](#Data-Source)
 
 [Tools](#Tools)
 
 [Data Cleaning Tasks](#Data-Cleaning-Tasks)
 
-[Data Analysis](#Data Analysis)
+[Data Analysis](#Data-Analysis)
 
 [Results](#Results)
 
