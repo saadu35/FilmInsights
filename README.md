@@ -1,10 +1,10 @@
 # FilmInsights
 
 ### Project Overview
-In this project, i aim to analyze a dataset containing information about movies to identify correlations between various variables. The dataset includes details such as budget, gross earnings, ratings, and release years for a variety of movies. By leveraging statistical analysis and visualization techniques, i seek to uncover relationships and patterns within the data.
+In this project, I aim to analyze a dataset containing information about movies to identify correlations between various variables. The dataset includes details such as budget, gross earnings, ratings, and release years for a variety of movies. By leveraging statistical analysis and visualization techniques, I seek to uncover relationships and patterns within the data.
 
 ### Data Source
-The data for this project is sourced from kaggle and it is a  CSV file named 'movies.csv'. It contains information about different movies, including attributes such as budget, gross earnings, ratings, release dates, and production companies.
+The data for this project is sourced from Kaggle and it is a  CSV file named 'movies.csv'. It contains information about different movies, including attributes such as budget, gross earnings, ratings, release dates, and production companies.
 
 ### Tools
 The analysis is conducted using Python programming language and several libraries for data manipulation, visualization, and analysis. The key libraries employed in this project include:
@@ -51,3 +51,6 @@ The analysis is conducted using Python programming language and several librarie
 
 
 ### References
+[Stackoverflow](https://stackoverflow.com/)
+[Youtube](youtube.com)
+[Github](github.com)
