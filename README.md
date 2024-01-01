@@ -4,13 +4,21 @@
 # Table of Contents
 
 Project Overview
+
 Data Source
+
 Tools
+
 Data Cleaning Tasks
+
 Data Analysis
+
 Results
+
 Recommendation
+
 Limitations
+
 References
 
 ### Project Overview
