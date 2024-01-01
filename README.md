@@ -3,23 +3,23 @@
 
 # Table of Contents
 
-Project Overview
+[Project Overview](#Project Overview)
 
-Data Source
+[Data Source](#Data Source)
 
-Tools
+[Tools](#Tools)
 
-Data Cleaning Tasks
+[Data Cleaning Tasks](#Data-Cleaning-Tasks)
 
-Data Analysis
+[Data Analysis](#Data Analysis)
 
-Results
+[Results](#Results)
 
-Recommendation
+[Recommendation](#Recommendation)
 
-Limitations
+[Limitations](#Limitation)
 
-References
+[References](#References)
 
 ### Project Overview
 In this project, I aim to analyze a dataset containing information about movies to identify correlations between various variables. The dataset includes details such as budget, gross earnings, ratings, and release years for a variety of movies. By leveraging statistical analysis and visualization techniques, I seek to uncover relationships and patterns within the data.
