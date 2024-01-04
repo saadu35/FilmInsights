@@ -35,11 +35,26 @@ The analysis is conducted using Python programming language and several librarie
 
 ### Data Cleaning Tasks
 
-1. Handling Missing Data: The dataset is examined for missing values in each column. Strategies such as imputation or removal of missing data are applied as needed.
+1. Changing Data Types
+Columns: Budget and Gross
+Reasoning: Ensuring consistency and appropriate data types for numerical analysis.
 
-2. Data Type Validation: Ensure correct data types for each column, converting them if necessary.
+2. Creating a New Year Column
+Column: New Year
+Method: Extract the first four values from the 'Year Released' column.
+Purpose: Standardizing the year format for easier temporal analysis.
 
-3. Dealing with Duplicates: Identify and remove any duplicate entries in the dataset.
+3. Ordering by Gross Revenue
+Column: Gross Revenue
+Method: Sorting the dataset based on the 'Gross Revenue' column.
+Rationale: Facilitating the identification of top-performing movies and trends in revenue.
+
+4. Checking and Dropping Duplicates
+Columns: All columns
+Method: Identifying and removing duplicate entries.
+Purpose: Ensuring data integrity and accuracy in subsequent analyses.
+
+Code Snippets
 
 ### Data Analysis
 
