@@ -11,7 +11,7 @@
 
 [Data Cleaning Tasks](#Data-Cleaning-Tasks)
 
-[Data Analysis](#Data-Analysis)
+[Correlation Findings](#Correlation-Findings)
 
 [Results](#Results)
 
@@ -35,38 +35,50 @@ The analysis is conducted using Python programming language and several librarie
 
 ### Data Cleaning Tasks
 
-1. Changing Data Types
-Columns: Budget and Gross
-Reasoning: Ensuring consistency and appropriate data types for numerical analysis.
+#### 1. Changing Data Types
+   
+  - Columns: Budget and Gross
 
-2. Creating a New Year Column
-Column: New Year
-Method: Extract the first four values from the 'Year Released' column.
-Purpose: Standardizing the year format for easier temporal analysis.
+  - Reasoning: Ensuring consistency and appropriate data types for numerical analysis.
 
-3. Ordering by Gross Revenue
-Column: Gross Revenue
-Method: Sorting the dataset based on the 'Gross Revenue' column.
-Rationale: Facilitating the identification of top-performing movies and trends in revenue.
+#### 2. Creating a New Year Column
+   
+  - Column: New Year
 
-4. Checking and Dropping Duplicates
-Columns: All columns
-Method: Identifying and removing duplicate entries.
-Purpose: Ensuring data integrity and accuracy in subsequent analyses.
+  - Method: Extract the first four values from the 'Year Released' column.
 
-Code Snippets
+  - Purpose: Standardizing the year format for easier temporal analysis.
 
-### Data Analysis
+#### 3. Ordering by Gross Revenue
+   
+  - Column: Gross Revenue
 
-1. Descriptive Statistics: Explore basic statistics for key variables, such as mean, median, and standard deviation.
+  - Method: Sorting the dataset based on the 'Gross Revenue' column.
 
-2. Outlier Detection: Identify and visualize outliers, especially in variables like 'gross.'
+  - Rationale: Facilitating the identification of top-performing movies and trends in revenue.
 
-3. Correlation Analysis: Explore correlations between numeric variables using correlation matrices and visualizations. Investigate the relationship between variables such as budget, score, and gross earnings.
+#### 4. Checking and Dropping Duplicates
+   
+  - Columns: All columns
 
-4. Categorical Variable Analysis: Explore the impact of categorical variables, such as 'rating' and 'company,' on gross earnings.
+  - Method: Identifying and removing duplicate entries.
 
-5. Temporal Analysis: Investigate trends over time by analyzing gross earnings and other variables across different years.
+  - Purpose: Ensuring data integrity and accuracy in subsequent analyses.
+
+
+### Correlation Findings
+
+1. Votes and Budget Significantly Impact Gross Earnings:
+   
+- Correlation: Strong positive correlation observed.
+  
+- Implication: Movies with higher budgets and a greater number of votes tend to generate increased gross earnings.
+  
+2. Company Exhibits Low Correlation:
+   
+- Correlation: Lower correlation observed between the production company ("company") and gross earnings.
+  
+- Implication: The choice of production company alone might not be a decisive factor in a movie's financial success.
 
 ### Results
 
@@ -80,13 +92,18 @@ Code Snippets
 
 ### Recommendation
 
-- Strategically allocate budgets based on positive correlations between budget and gross earnings.
+- Allocate budgets based on positive correlations between budget and gross earnings.
+- Ensure sufficient resources for production and marketing activities.
 - Optimize audience appeal by choosing genres with strong positive correlations.
+- Tailor movie production strategies to align with genre preferences and trends.
 - Align release strategies with temporal trends for enhanced box office success.
+- Leverage insights into trends over time to optimize release schedules.
 - Empower industry professionals with data-driven guidance for maximizing cinematic impact and financial returns.
 
 ### Limitation 
-While the project has unveiled valuable insights into the film industry by identifying strong positive correlations between votes, budget, and gross earnings, it is imperative to recognize the inherent limitations. The complexity of variables influencing movie success, such as marketing strategies, script quality, and talent involvement, suggests that the observed correlations offer a focused perspective rather than an exhaustive understanding. This project establishes associations but refrains from exploring causation, emphasizing the need for cautious interpretation. Additionally, the dynamic nature of the film industry introduces challenges, as the analysis is based on historical data, potentially missing emerging trends. Data quality concerns, including the completeness and accuracy of the dataset, underscore the importance of rigorous validation processes. While the lower correlation with production companies prompts a reevaluation of their impact on financial success, this project does not delve into specific attributes or strategies within production companies. Recognizing these limitations is crucial for industry professionals seeking to apply the findings judiciously in the ever-evolving landscape of filmmaking.
+- Recognize that the identified correlations offer a focused perspective rather than an exhaustive understanding of all factors influencing movie success.
+- Acknowledge the dynamic nature of the film industry, and the analysis is based on historical data, potentially missing emerging trends.
+- Emphasize the importance of rigorous validation processes to address data quality concerns, including completeness and accuracy of the dataset.
 
 ### References
 
