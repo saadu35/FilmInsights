@@ -1,4 +1,4 @@
-# Movie-Insights
+# MOVIES CORRELATION WITH PYTHON 
 
 
 # Table of Contents
