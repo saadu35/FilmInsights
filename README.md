@@ -1,4 +1,4 @@
-# FilmInsights
+# Movie-Insights
 
 
 # Table of Contents
