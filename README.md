@@ -67,11 +67,16 @@ The analysis is conducted using Python programming language and several librarie
 
 ### Recommendation
 
+- Strategically allocate budgets based on positive correlations between budget and gross earnings.
+- Optimize audience appeal by choosing genres with strong positive correlations.
+- Align release strategies with temporal trends for enhanced box office success.
+- Empower industry professionals with data-driven guidance for maximizing cinematic impact and financial returns.
 
 ### Limitation 
-
+Incomplete or inaccurate data may impact the validity of findings. Furthermore, while correlations are identified, causation is not established, and industry dynamics, evolving preferences, and other factors not considered in the analysis could influence movie success. The project, based on historical data, may not fully capture the nuances of the ever-changing film landscape, emphasizing the need for a holistic understanding when applying these insights in a dynamic industry.
 
 ### References
+
 [Stackoverflow](https://stackoverflow.com/)
 
 [Youtube](youtube.com)
